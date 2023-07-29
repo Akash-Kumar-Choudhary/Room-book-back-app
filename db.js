@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 //PLEASE EDIT YOUR MONGO DB CONNECTION HERE
 /*YOU CAN FIND SAMPLE COLLECTION at mongodb_collections folder */
-var mongoURL = "mongodb+srv://akasmi93342:K7AUsq0OsUeMPamu@cluster0.r0estal.mongodb.net/mern-rooms";
+var mongoURL = "mongodb+srv://akasmi93342:K7AUsq0OsUeMPamu@cluster0.r0estal.mongodb.net/mern-room";
 
 mongoose.connect(mongoURL, { useUnifiedTopology: true, useNewUrlParser: true });
 
